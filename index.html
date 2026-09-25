@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Neva | Portfolio</title>
+
+    <!-- Icon Library -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#home" class="logo-navbar">Neva<span>✦</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#portfolio">Karya</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search">
+          <i data-feather="search"></i>
+        </a>
+
+        <a id="hamburger-menu" href="#">
+          <i data-feather="menu"></i>
+        </a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>
+          Kreativitas dalam
+          <br />
+          Setiap Karya
+        </h1>
+
+        <p>
+          Selamat datang di portofolio saya. Di sini, kamu bisa melihat berbagai
+          karya yang saya buat, mulai dari desain, ilustrasi, hingga proyek
+          multimedia lainnya.
+        </p>
+
+        <a href="#portfolio" class="cta">
+          Lihat Karya
+          <span>→</span>
+        </a>
+      </main>
+
+      <div class="hero-image">
+        <img src="/assets/Neva foto.jpeg" alt="Foto Neva" />
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <h2>Tentang Saya</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="/assets/Neva foto.jpeg" alt="Foto Neva" />
+        </div>
+
+        <div class="content">
+          <h3>Hai, aku Neva!</h3>
+
+          <p>
+            Saya merupakan mahasiswa Pendidikan Multimedia yang memiliki
+            ketertarikan pada dunia desain, ilustrasi, animasi, dan pengembangan
+            media interaktif.
+          </p>
+
+          <p>
+            Saya senang mengeksplorasi ide-ide kreatif dan mengubahnya menjadi
+            karya visual yang menarik, informatif, dan memiliki tujuan yang
+            jelas.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section class="portfolio" id="portfolio">
+      <h2>Karya Saya</h2>
+
+      <p class="portfolio-description">
+        Beberapa karya dan proyek yang pernah saya kerjakan.
+      </p>
+
+      <div class="portfolio-container">
+        <div class="portfolio-card">
+          <div class="portfolio-icon">
+            <i data-feather="pen-tool"></i>
+          </div>
+
+          <h3>Desain Grafis</h3>
+
+          <p>
+            Karya desain visual seperti branding, poster, dan berbagai kebutuhan
+            desain kreatif.
+          </p>
+
+          <a href="#">Lihat Karya →</a>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="portfolio-icon">
+            <i data-feather="image"></i>
+          </div>
+
+          <h3>Ilustrasi</h3>
+
+          <p>
+            Eksplorasi ilustrasi digital dan visual kreatif dengan berbagai gaya
+            dan konsep.
+          </p>
+
+          <a href="#">Lihat Karya →</a>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="portfolio-icon">
+            <i data-feather="monitor"></i>
+          </div>
+
+          <h3>Multimedia</h3>
+
+          <p>
+            Proyek multimedia seperti website, aplikasi interaktif, game, dan
+            media pembelajaran.
+          </p>
+
+          <a href="#">Lihat Karya →</a>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2>Kontak</h2>
+
+      <p>Punya pertanyaan atau ingin berkolaborasi? Yuk, ngobrol!</p>
+
+      <div class="row">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i data-feather="mail"></i>
+
+            <div>
+              <h3>Email</h3>
+              <p>nevawindrazzahra@upi.edu</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i data-feather="instagram"></i>
+
+            <div>
+              <h3>Instagram</h3>
+              <p>@nevaa.wa</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i data-feather="map-pin"></i>
+
+            <div>
+              <h3>Lokasi</h3>
+              <p>Bandung, Indonesia</p>
+            </div>
+          </div>
+        </div>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="message-circle"></i>
+            <textarea placeholder="Pesan"></textarea>
+          </div>
+
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer id="footer">
+      <div class="socials">
+        <a href="#">
+          <i data-feather="instagram"></i>
+        </a>
+
+        <a href="#">
+          <i data-feather="linkedin"></i>
+        </a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#portfolio">Karya</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <span>Neva Windra Azzahra</span> | &copy; 2026</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
